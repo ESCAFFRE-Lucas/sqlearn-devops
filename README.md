@@ -83,6 +83,8 @@ terraform apply -auto-approve
 
 Pour la vérification des ressources AWS, vous pouvez vous connecter à votre compte AWS et vérifier les ressources créées.
 
+<img src="assets/terraform-show.gif" width="100%" alt="">
+
 ## 🛑 Arrêt
 
 1. Supprimer l'infrastructure

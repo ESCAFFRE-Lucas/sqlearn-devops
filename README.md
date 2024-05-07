@@ -98,12 +98,24 @@ terraform destroy -auto-approve
 # 📦 Technologies
 
 - [Terraform](https://www.terraform.io/)
-- [AWS CLI](https://aws.amazon.com/fr/cli/)
-- [AWS RDS](https://aws.amazon.com/fr/rds/)
+- [AWS](https://aws.amazon.com/fr/)
+  - [AWS CLI](https://aws.amazon.com/fr/cli/) 
+  - [AWS RDS](https://aws.amazon.com/fr/rds/)
+  - [AWS Route53](https://aws.amazon.com/fr/route53/)
+  - [AWS EC2](https://aws.amazon.com/fr/ec2/)
+  - [AWS VPC](https://aws.amazon.com/fr/vpc/)
+  - [AWS S3](https://aws.amazon.com/fr/s3/)
+  - [AWS IAM](https://aws.amazon.com/fr/iam/)
+  - [AWS CloudWatch](https://aws.amazon.com/fr/cloudwatch/)
+  - [AWS Load Balancers](https://docs.aws.amazon.com/fr/elasticloadbalancing/)
 - [Docker](https://www.docker.com/)
 - [MySQL](https://www.mysql.com/)
 
-# 📝 Auteurs
+# 📄 Schema
 
-- [Lucas ESCAFFRE]()
-- [Anthony CAVAGNE]()
+<img src="assets/schema.png" width="100%" alt="">
+
+# 📝 Authors
+
+- [Lucas ESCAFFRE](https://github.com/ESCAFFRE-Lucas/)
+- [Anthony CAVAGNE](https://github.com/tonycava/)

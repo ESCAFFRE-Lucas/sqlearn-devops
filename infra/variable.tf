@@ -32,3 +32,8 @@ variable "db_password" {
   type        = string
   description = "The password for the database."
 }
+
+variable "acm_certificate_arn" {
+  type        = string
+  description = "The ARN of the ACM certificate to use for the load balancer."
+}

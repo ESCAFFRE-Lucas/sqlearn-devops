@@ -11,12 +11,12 @@ resource "aws_iam_role" "tonycava_ec2" {
   name = "ng-beanstalk-ec2-role"
 
   assume_role_policy = jsonencode({
-    "Version" = "2012-10-17",
+    "Version"   = "2012-10-17",
     "Statement" = [
       {
-        "Action" = "sts:AssumeRole",
-        "Sid"    = "",
-        "Effect" = "Allow",
+        "Action"    = "sts:AssumeRole",
+        "Sid"       = "",
+        "Effect"    = "Allow",
         "Principal" = {
           "Service" = "ec2.amazonaws.com"
         }
@@ -32,7 +32,7 @@ resource "aws_iam_role_policy" "tonycava_ec2_policy" {
   role = aws_iam_role.tonycava_ec2.id
 
   policy = jsonencode({
-    "Version" = "2012-10-17",
+    "Version"   = "2012-10-17",
     "Statement" = [
       {
         "Action" = [
@@ -127,7 +127,7 @@ resource "aws_elastic_beanstalk_environment" "tonycava_application_environment" 
   setting {
     namespace = "aws:elbv2:listener:443"
     name      = "SSLCertificateArns"
-    value     = "arn:aws:acm:eu-west-3:039807177921:certificate/e0fea145-ce95-4f31-aaca-f15cb26e7053"
+    value     = var.acm_certificate_arn
   }
 
   setting {

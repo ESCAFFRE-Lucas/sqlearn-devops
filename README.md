@@ -67,7 +67,7 @@ db_username
 db_password
 ```
 
-<img src="../Documents/sqlearn-devops/assets/init-terraform.gif" width="100%" alt="">
+<img src="assets/init-terraform.gif" width="100%" alt="">
 
 ## 🚀 Déploiement
 
@@ -77,7 +77,7 @@ db_password
 terraform apply -auto-approve
 ```
 
-<img src="../Documents/sqlearn-devops/assets/terraform-apply.gif" width="100%" alt="">
+<img src="assets/terraform-apply.gif" width="100%" alt="">
 
 ## 🛠️ Verification
 
@@ -91,7 +91,7 @@ Pour la vérification des ressources AWS, vous pouvez vous connecter à votre co
 terraform destroy -auto-approve
 ```
 
-<img src="../Documents/sqlearn-devops/assets/terraform-destroy.gif" width="100%" alt="">
+<img src="assets/terraform-destroy.gif" width="100%" alt="">
 
 # 📦 Technologies
 

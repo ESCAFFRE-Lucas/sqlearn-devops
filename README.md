@@ -58,13 +58,16 @@ touch terraform.tfvars
 ```
 
 ```bash
-aws_region
-route53_zone_id
-application_name
-application_description
-application_environment
-db_username
-db_password
+acm_certificate_arn = ""
+route53_zone_id = ""
+
+application_description = ""
+application_environment = ""
+application_name = ""
+
+aws_region = ""
+db_username = ""
+db_password = ""
 ```
 
 <img src="assets/init-terraform.gif" width="100%" alt="">
